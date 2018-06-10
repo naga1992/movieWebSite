@@ -8,6 +8,7 @@ Created on Sun Jun 10 17:40:52 2018
 
 import webbrowser
 class Movie():
+     VALID_RATINGS=['U','U/A','A']
      def __init__(self,movie_title,movie_storyline,movie_poster,movie_youtube_url):
          self.title=movie_title
          self.storyline=movie_storyline

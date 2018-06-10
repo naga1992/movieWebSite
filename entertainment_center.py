@@ -17,4 +17,5 @@ toy_story1=media.Movie("toy_story2","a story of a boy and his toys which came to
                       "https://www.youtube.com/watch?v=KYz2wyBy3kc")
 
 movies=[toy_story,toy_story1]
-fresh_tomatoes.open_movies_page(movies)
+print(media.Movie.VALID_RATINGS)
+#fresh_tomatoes.open_movies_page(movies)
